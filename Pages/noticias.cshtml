@@ -1,0 +1,135 @@
+﻿@page
+@model SeekTube.Pages.noticiasModel
+@{
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="css/style3.css">
+  <title>SeekTube</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a asp-page="/Index">
+        <img src="img/logonews.png" alt="">
+
+      </a>
+    </div>
+    <nav class="menu-desktop">
+      <ul>
+        <li><a asp-page="/Index">HOME</a></li>
+        <li><a asp-page="/sobre">SOBRE</a></li>
+        <li><a asp-page="/feedback">FEEDBACK</a></li>
+        <li><a asp-page="/academico">ACADÊMICO</a></li>
+        <li><a asp-page="/noticias">NOTÍCIAS</a></li>
+        
+      </ul>
+    </nav>
+
+  </header>
+
+  <main id="principal">
+    <div id="titulo">
+      <h1><img src="img/seekver.png" alt="" class="logoseek"></h1>
+    </div>
+
+    <div id="pesquisa">
+      <div id="forabarra">
+        <input id="barra">
+      </div>
+      <br>
+      <h5>Insira o link desejado!</h5>
+      <input type="button" id="red" value="Redirecionar">
+
+      <input type="button" id="retor" value="Retornar">
+    </div>
+
+
+  </main>
+  <main class="texto">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 h-100" src="img/news.png" alt="Primeiro Slide">
+        </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    </div>
+  </main>
+
+
+
+
+  <footer class="rodape">
+
+
+
+    <p>
+
+
+    <section id="rede_sociais">
+      <div class="bloco">
+        <a href=""><img src="img/uiuiuouiuiou.png" alt=""></a>
+        <br><span>E-mail</span>
+        </div>
+      <div class="bloco">
+        <a href="https://www.instagram.com/seek_tube/" target="_blank">
+          <iconify-icon icon="icon-park-twotone:instagram" width="50" height="50" style="color: #ffffff;">
+          </iconify-icon>
+        </a><br> Instagram
+      </div>
+      <div class="bloco">
+        <a href="https://www.tiktok.com/seektube?lang=pt-BR" target="_blank">
+          <iconify-icon icon="fa-brands:tiktok" width="50" height="50" style="color: #ffffff;"> </iconify-icon>
+        </a><br> TikTok
+      </div>
+      <div class="bloco">
+        <a href="https://twitter.com/seek_tube" target="_blank">
+
+          <iconify-icon icon="akar-icons:twitter-fill" width="50" height="50" style="color: #ffffff;"> </iconify-icon>
+        </a> <br>Twitter
+      </div>
+      <div class="bloco">
+        <a href="https://www.youtube.com/watch?v=Kk6HyvWcwhk" target="_blank">
+
+          <iconify-icon icon="bi:youtube" width="50" height="50" style="color: #ffffff;"> </iconify-icon>
+        </a><br>Youtube
+      </div>
+      <div class="bloco2">
+        <p>Site SEEKTUBE oficial
+        <p>
+        <p>Desenvolvido por: Arthur, Thomas, Lily, Gustavo F., Lorenzo, Camila, Lily e TioB
+        <p>
+      </div>
+
+    </section>
+
+
+
+    </p>
+
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+﻿@page
+@model SeekTube.Pages.feedbackModel
+@{
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <title>Doação</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a asp-page="/index">
+        <img src="img/seekroxo.png" id="seek">
+      </a>
+    </div>
+    <nav class="menu-desktop">
+      <ul>
+        <li><a asp-page="/Index">HOME</a></li>
+        <li><a asp-page="/sobre">SOBRE</a></li>
+        <li><a asp-page="/feedback">FEEDBACK</a></li>
+        <li><a asp-page="/academico">ACADÊMICO</a></li>
+        <li><a asp-page="/noticias">NOTÍCIAS</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <br><br><br><br>
+  <br><br>
+
+<main class="texto">
+  <div class="container">
+
+
+    <p class="feed">
+      <h1 class="vindo">FeedBack!</h1>
+      Deixe aqui seu feedback para que possamos melhorar cada vez mais!!!
+      <div class="forabarra">
+        <br>
+        <textarea name="" id="inFeedback" cols="40" rows="10"></textarea>
+  
+        <input type="button" id="inEnviar" value="Enviar">
+  
+      </div>
+    </p>
+
+    <p class="doacoes">
+      <h1 class="vindo">Doações!</h1>
+      <h3>Ei você! Gostou do nosso site e gostaria de ver mais??</h3>
+      <h3>Se sim, por gentileza sinta-se livre para doar uma humilde quantia.</h3> 
+      <h3>Assim garantimos em melhorar ainda mais o nosso trabalho :D!</h3> 
+    </p>
+
+    <div id="forabarra">
+      <input id="barra">
+
+      <input type="button" id="inDoar" value="Doar">
+
+    </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+
+
+    <br><br>
+    <footer class="rodape">
+
+
+
+      <p>
+  
+  
+      <section id="rede_sociais">
+        <div class="bloco">
+          <a href=""><img src="img/uiuiuouiuiou.png" alt=""></a>
+          <br><span>E-mail</span>
+          </div>
+        <div class="bloco">
+          <a href="https://www.instagram.com/seek_tube/" target="_blank">
+            <iconify-icon icon="icon-park-twotone:instagram" width="50" height="50" style="color: #ffffff;">
+            </iconify-icon>
+          </a><br> Instagram
+        </div>
+        <div class="bloco">
+          <a href="https://www.tiktok.com/seektube?lang=pt-BR" target="_blank">
+            <iconify-icon icon="fa-brands:tiktok" width="50" height="50" style="color: #ffffff;"> </iconify-icon>
+          </a><br> TikTok
+        </div>
+        <div class="bloco">
+          <a href="https://twitter.com/seek_tube" target="_blank">
+  
+            <iconify-icon icon="akar-icons:twitter-fill" width="50" height="50" style="color: #ffffff;"> </iconify-icon>
+          </a> <br>Twitter
+        </div>
+        <div class="bloco">
+          <a href="https://www.youtube.com/watch?v=Kk6HyvWcwhk" target="_blank">
+  
+            <iconify-icon icon="bi:youtube" width="50" height="50" style="color: #ffffff;"> </iconify-icon>
+          </a><br> Youtube
+        </div>
+        <div class="bloco2">
+          <p>Site SEEKTUBE oficial
+          <p>
+          <p>Desenvolvido por: Arthur, Thomas, Lily, Gustavo F., Lorenzo, Camila, Lily e TioB
+          <p>
+        </div>
+  
+      </section>
+  
+  
+  
+      </p>
+  
+  
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
