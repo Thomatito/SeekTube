@@ -38,11 +38,11 @@ body {
 #barra {
     margin: 15px 0 0 0;
     padding: 0 0 0 10px;
-    height: 4.5vh;
+    height: 4.0vh;
     text-align: start;
     border: none;
     outline: none;
-    width: 40vw;
+    width: 35vw;
     border-radius: 0.4cm;
     font-size: 20px;
     color: dimgray;
